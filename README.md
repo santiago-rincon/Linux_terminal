@@ -7,8 +7,8 @@ Configuración de la terminal [Kitty](https://sw.kovidgoyal.net/kitty/) para dis
 - [Instalación manual](#instalacion-manual)
 - [Instalación automática](#instalacion-automatica)
 - [Lista de shortcuts](#lista-de-shortcuts)
-# Instalación manual
 
+# Instalación manual
 1. Actualización de paquetes: en primer lugar se actualizará todos los paquetes del sistema con el siguiente comando.
 
 ```bash
@@ -153,6 +153,8 @@ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 # Instalación automática
 Para realizar la instalación deforma automática puedes ejecutar el script `install.sh` como **usuario de bajos privilegios** disponible en este repositorio. En caso de no tener permisos de ejecución se asigna y se ejecuta.
 ```bash
+git clone https://github.com/santiago-rincon/Linux_terminal.git
+cd Linux_terminal
 chmod u+x install.sh
 ./install.sh
 ```
