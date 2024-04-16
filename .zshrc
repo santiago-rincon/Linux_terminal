@@ -152,3 +152,8 @@ function nmap-scan-upd(){
 (( ! ${+functions[p10k-instant-prompt-finalize]} )) || p10k-instant-prompt-finalize
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 export EDITOR=nvim
+bindkey "^[[H" beginning-of-line
+bindkey "^[[F" end-of-line
+bindkey "^[[3~" delete-char
+bindkey "^[[1;3C" forward-word
+bindkey "^[[1;3D" backward-word
